@@ -21,6 +21,6 @@ if (command === "list") {
 }
 
 function runListCommand() {
-  members.forEach(item => console.log(item.firstname))
+  members.forEach(item => console.log(item))
 
 }
