@@ -21,6 +21,6 @@ if (command === "list") {
 }
 
 function runListCommand() {
-  // Replace this with your implementation
-  console.log("Called the list command");
+  members.forEach(item => console.log(item.firstname))
+
 }
